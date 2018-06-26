@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["nao0515ki"]
   spec.email         = ["ishigaki0515naoki@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{whole_number adds a method to Integer and Float.}
+  spec.description   = %q{Float and Integer will be converted to whole number, that is 0,1,2,3,4... , when you give a negative num, it will be 0. Also when you give 1.1 => 1 by Float#to_i }
+  spec.homepage      = "https://github.com/nao0515ki/whole_number"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
